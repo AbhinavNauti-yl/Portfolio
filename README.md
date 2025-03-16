@@ -12,8 +12,21 @@ Welcome to my personal portfolio website! This is a showcase of my projects, ski
 ## 🛠️ Tech Stack
 
 - **Frontend**: React.js, HTML5, CSS3, JavaScript
-- **Styling**: Tailwind CSS
+- **Styling**: Tailwind CSS, Css
 - **Version Control**: Git, GitHub
+
+
+## 🌐 Live Demo
+
+Check out the live version of my portfolio here: [Live-portfolio-link](https://your-portfolio-link.com)
+
+## 📧 Contact
+
+- **Email**: abhinavnautiyal2004@gmail.com
+- **LinkedIn**: [My LinkedIn](https://www.linkedin.com/in/abhinav-nautiyal-264828248/)
+- **GitHub**: [My-username](https://github.com/AbhinavNauti-yl)
+
+
 
 ## 📦 Installation
 

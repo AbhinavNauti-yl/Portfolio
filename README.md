@@ -18,7 +18,7 @@ Welcome to my personal portfolio website! This is a showcase of my projects, ski
 
 ## 🌐 Live Demo
 
-Check out the live version of my portfolio here: [Live-portfolio-link](https://your-portfolio-link.com)
+Check out the live version of my portfolio here: [Live-portfolio-link](https://abhinav-nautiyal.netlify.app)
 
 ## 📧 Contact
 

@@ -24,7 +24,7 @@ Check out the live version of my portfolio here: [Live-portfolio-link](https://y
 
 - **Email**: abhinavnautiyal2004@gmail.com
 - **LinkedIn**: [My LinkedIn](https://www.linkedin.com/in/abhinav-nautiyal-264828248/)
-- **GitHub**: [My-username](https://github.com/AbhinavNauti-yl)
+- **GitHub**: [My-GitHub](https://github.com/AbhinavNauti-yl)
 
 
 

@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    scale: 0.5;
+  }
+
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%); /* Start from the left (off-screen) */
+    opacity: 0; /* Initially invisible */
+  }
+  to {
+    transform: translateX(0); /* Slide to its normal position */
+    opacity: 1; /* Fade in */
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%); /* Start from the left (off-screen) */
+    opacity: 0; /* Initially invisible */
+  }
+  to {
+    transform: translateX(0); /* Slide to its normal position */
+    opacity: 1; /* Fade in */
+  }
+}
+
+@keyframes clipAnimation {
+  from {
+    opacity: 0;
+    clip-path: inset(100% 100% 0% 0%);
+  }
+
+  to {
+    opacity: 1;
+    clip-path: inset(0% 0% 0% 0%);
+  }
+}
+
+.appearLeft {
+  animation: slideInLeft linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+.appearRight {
+  animation: slideInRight linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.fadeIn {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+
+.increaseSize {
+  animation: clipAnimation linear 2s;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.main{
+  animation: apear 2s linear ;
+}

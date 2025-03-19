@@ -13,26 +13,26 @@ export default function Footer() {
     <div className='mx-10 mt-20'>
       <h1 className='text-2xl  mb-5 lg:text-4xl'>Follow me on other chanels</h1>
     
-      <div className=' flex flex-col lg:grid lg:grid-cols-2 lg:gap-10 lg:items-center mb-10'>
-        <div className='text-4xl flex flex-col gap-5 p-10'>
+      <div className=' flex flex-col lg:grid lg:grid-cols-2 lg:gap-10 lg:items-center mb-10 '>
+        <div className='text-4xl flex flex-col gap-5 p-10 sm:text-2xl'>
           <Link to='https://github.com/AbhinavNauti-yl'>
-            <div className='flex flex-row border-2 rounded-full p-3 items-center gap-3 bg-pink-100 w-[calc(85%)]'>
+            <div className='flex flex-row border-2 rounded-full p-3 items-center gap-3 bg-pink-100 w-full  md:w-[calc(85%)]'>
               <FaGithub />
-              <h1 className='text-3xl'>GitHub</h1>
+              <h1 className='text-lg md:text-3xl lg:text-3xl'>GitHub</h1>
             </div>
           </Link>
 
           <Link to='https://www.instagram.com/abhinavnautiyal04/'>
-            <div className='flex flex-row border-2 rounded-full p-3 items-center gap-3 bg-pink-100 w-[calc(67.5%)]'>
+            <div className='flex flex-row border-2 rounded-full p-3 items-center gap-3 bg-pink-100 w-[calcfull md:w-[calc(67.5%)]'>
               <FaInstagram />
-              <h1 className='text-3xl'>Instagram</h1>
+              <h1 className='text-lg md:text-3xl lg:text-3xl'>Instagram</h1>
             </div>
           </Link>
 
           <Link to='https://www.linkedin.com/in/abhinav-nautiyal-264828248/'>
-            <div className='flex flex-row border-2 rounded-full p-3 items-center gap-3 bg-pink-100 w-[calc(50%)]'>
+            <div className='flex flex-row border-2 rounded-full p-3 items-center gap-3 bg-pink-100 w-full md:w-[calc(50%)]'>
               <FaLinkedin />
-              <h1 className='text-3xl'>LinkedIn</h1>
+              <h1 className='text-lg md:text-3xl lg:text-3xl'>LinkedIn</h1>
             </div>
           </Link>
         </div>

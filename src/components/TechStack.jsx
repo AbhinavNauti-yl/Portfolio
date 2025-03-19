@@ -83,9 +83,9 @@ const element = (data, index) => {
       key={index}
       className={`m-10 p-10 rounded-2xl mx-auto gap-5 bg-pink-50 w-[calc(75%)]  ${index == 1 ? "appearRight" : "appearLeft"} `}
     >
-      <h1 className="text-3xl md:text-4xl lg:7xl">{data.type}</h1>
+      <h1 className="text-3xl md:text-4xl lg:7xl mb-10 lg:text-5xl">{data.type}</h1>
 
-      <div className="flex flex-col gap-5 md:grid md:grid-cols-2 lg:gap-1 ">
+      <div className="flex flex-col gap-5 md:grid md:grid-cols-3 lg:gap-0  ">
 
         {data.skill.map((data, index) => (
           <div key={index} className="text-2xl md:text-3xl lg:text-4xl flex flex-row items-center gap-5 ">
@@ -116,9 +116,9 @@ export default function TechStack() {
         <div
         className="m-10 p-10 rounded-2xl flex flex-col gap-5 bg-pink-50 mx-auto w-[calc(75%)] appearLeft"
         >
-            <h1 className="text-3xl md:text-5xl">Others</h1>
+            <h1 className="text-3xl md:text-5xl mb-10">Others</h1>
             
-            <div className="text-lg grid grid-cols-2 gap-5 items-center ">
+            <div className="text-lg grid grid-cols-2 gap-5 items-center  ">
             {othersData.map((data, index) => (
                 <div key={index} className="text-lg md:text-2xl flex flex-row items-center gap-5 ">
                 <div>

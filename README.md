@@ -31,7 +31,7 @@ Check out the live version of my portfolio here: [Live-portfolio-link](https://a
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/portfolio-website.git
-cd portfolio-website
+git clone https://github.com/AbhinavNauti-yl/Portfolio.git
+cd Portfolio
 npm install
-npm start
+npm run dev

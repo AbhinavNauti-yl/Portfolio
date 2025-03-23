@@ -52,7 +52,7 @@ export default function Header() {
 
   return (
     <div className={ `z-10  flex flex-row justify-between item-center w-100 mx-10 my-5 font-bold sticky left-0 right-0 top-5  shadow-lg shadow-[#718096] p-2 bg-white rounded-xl `}>
-      <h1 className="text-3xl ">Abhinav Nautiyal</h1>
+      <Link to='/'><h1 className="text-3xl ">Abhinav Nautiyal</h1></Link>
 
       <div className="flex items-center z-50 lg:hidden">
         {isNavVisible ? (

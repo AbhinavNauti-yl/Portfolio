@@ -2,8 +2,8 @@ import React from 'react'
 import Home from './pages/Home'
 
 import { Router, Route, Routes } from 'react-router-dom'
-import UnderDevComponent from './components/UnderDevComponent'
 import Contact from './pages/contact/Contact'
+import UnderDevelopement from './pages/UnderDevelopement'
 
 export default function App() {
   return (
@@ -12,8 +12,8 @@ export default function App() {
       <Routes>
         <Route path='/' element = {<Home />}/>
         <Route path='/contact' element = {<Contact />}/>
-        <Route path='/education' element = {<UnderDevComponent />}/>
-        <Route path='/certificate' element = {<UnderDevComponent />}/>
+        <Route path='/education' element = {<UnderDevelopement />}/>
+        <Route path='/certificate' element = {<UnderDevelopement />}/>
       </Routes>
 
       

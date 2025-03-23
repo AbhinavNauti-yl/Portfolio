@@ -68,8 +68,9 @@ function Contact() {
               <label className="block" htmlFor="message">
                 Message
               </label>
-              <input
+              <textarea
                 type="text"
+                rows="5"
                 name="messge"
                 placeholder="We would like to schedule an full stack developer interviw"
                 className="p-2 w-full rounded-xl focus:ring-blue-500 focus:outline-none focus-ring-2 border-gray-300"
